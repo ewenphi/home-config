@@ -32,7 +32,6 @@
         { package = pkgs.gnomeExtensions.appindicator; }
         { package = pkgs.gnomeExtensions.thinkpad-battery-threshold; }
         { package = pkgs.gnomeExtensions.systemd-status; }
-        { package = pkgs.gnomeExtensions.github-actions; }
 
         { package = pkgs.gnomeExtensions.open-bar; }
         { package = pkgs.gnomeExtensions.just-perfection; }

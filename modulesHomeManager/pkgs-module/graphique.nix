@@ -14,7 +14,7 @@ in
   };
 
   config = lib.mkIf config.graphique.enable {
-    nixGL = {
+    targets.genericLinux.nixGL = {
       inherit (inputs.nixgl) packages;
       defaultWrapper = "mesa";
       installScripts = [ "mesa" ];
