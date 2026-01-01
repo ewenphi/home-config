@@ -84,9 +84,6 @@
           #uml excalidraw
           inputs.nix-vscode-extensions.extensions.${pkgs.stdenv.hostPlatform.system}.open-vsx.pomdtr.excalidraw-editor
 
-          #codacy
-          inputs.nix-vscode-extensions.extensions.${pkgs.stdenv.hostPlatform.system}.open-vsx.codacy-app.codacy
-
           #theme
           inputs.nix-vscode-extensions.extensions.${pkgs.stdenv.hostPlatform.system}.open-vsx.catppuccin.catppuccin-vsc-pack
         ];
