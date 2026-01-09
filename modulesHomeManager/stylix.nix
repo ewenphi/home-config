@@ -21,7 +21,7 @@
           rev = "6af325f89ce8c39bc134292f65f51349233c23c0";
           hash = "sha256-5XVkJQkYkjdSZq3ElbRHFk6xV6slm7HY7ZTCdKPDnGo=";
         }
-        + "/landscapes/conv-AuroraBorealis.png";
+        + "/landscapes/conv-BikeRocketHill.png";
       base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
 
       cursor = {
