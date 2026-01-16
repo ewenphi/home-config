@@ -55,6 +55,7 @@ in
       pkgs.obsidian
 
       pkgs.jetbrains-toolbox
+      pkgs.vlc
 
       (config.lib.nixGL.wrap pkgs.firefox)
       (config.lib.nixGL.wrap pkgs.godot_4-mono)
