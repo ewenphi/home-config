@@ -10,7 +10,7 @@
     codium.enable = lib.mkEnableOption "enable codium with extensions module";
   };
 
-  config = lib.mkIf config.gnome.enable {
+  config = lib.mkIf config.codium.enable {
     programs.vscode = {
       enable = true;
       package = pkgs.vscodium;

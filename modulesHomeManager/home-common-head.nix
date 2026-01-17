@@ -12,7 +12,7 @@
 
     programs-head-oneliners.enable = true;
 
-    gnome.enable = true;
+    #gnome.enable = true;
 
     cosmic.enable = true;
 

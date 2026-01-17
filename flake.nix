@@ -60,7 +60,7 @@
     };
 
     status-projets-viewer = {
-      url = "git+https://github.com/ewenphi/status-projets-viewer";
+      url = "github:ewenphi/status-projets-viewer";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     # fin perso

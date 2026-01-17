@@ -22,6 +22,12 @@
           "*~"
           "*.swp"
         ];
+        settings = {
+          user = {
+            email = "ewen.philippot@etu.umontpellier.fr";
+            name = "Ewen Philippot";
+          };
+        };
       };
       difftastic = {
         git.enable = true;

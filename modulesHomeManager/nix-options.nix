@@ -13,11 +13,13 @@
   config = lib.mkIf config.nix-options.enable {
     nix = {
       registry.nixpkgs.flake = inputs.nixpkgs;
-      extraOptions = ''
-        keep-outputs = true
-        keep-derivations = true
-        auto-optimise-store = true
-      '';
+      #extraOptions = ''
+      #  keep-outputs = true
+      #  keep-derivations = true
+      #  auto-optimise-store = true
+      #  extra-experimental-features = nix-command
+      #  extra-experimental-features = flakes
+      #'';
       package = pkgs.nix;
       gc.automatic = true;
     };
