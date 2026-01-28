@@ -17,6 +17,9 @@
       };
     };
 
+    nixago.url = "github:nix-community/nixago";
+    nixago.inputs.nixpkgs.follows = "nixpkgs";
+
     mydevenvs.url = "github:yvaniak/mydevenvs";
     mydevenvs.inputs.nixpkgs.follows = "nixpkgs";
 
