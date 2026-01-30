@@ -21,13 +21,9 @@ in
     };
 
     home.packages = [
-      pkgs.discord
       pkgs.bugdom
-      pkgs.dolphin-emu
 
       pkgs.jellyfin-web
-      pkgs.libreoffice-fresh
-      pkgs.nemo-with-extensions
       pkgs.thunderbird
       pkgs.distrobox
       pkgs.caprine-bin
@@ -45,17 +41,18 @@ in
 
       pkgs.mate.atril
       myTexLive
-      pkgs.quickemu
       pkgs.pdfpc
 
       pkgs.podman
       pkgs.nixpacks
 
-      pkgs.obsidian
-
-      pkgs.jetbrains-toolbox
-      pkgs.vlc
-
+      (config.lib.nixGL.wrap pkgs.nemo-with-extensions)
+      (config.lib.nixGL.wrap pkgs.quickemu)
+      (config.lib.nixGL.wrap pkgs.jetbrains-toolbox)
+      (config.lib.nixGL.wrap pkgs.vlc)
+      (config.lib.nixGL.wrap pkgs.libreoffice-fresh)
+      (config.lib.nixGL.wrap pkgs.discord)
+      (config.lib.nixGL.wrap pkgs.dolphin-emu)
       (config.lib.nixGL.wrap pkgs.firefox)
       (config.lib.nixGL.wrap pkgs.godot_4-mono)
       (config.lib.nixGL.wrap pkgs.prismlauncher)
