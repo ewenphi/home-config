@@ -126,6 +126,8 @@
       pkgs.jdk # plantuml
       pkgs.graphviz
       pkgs.plantuml-server
+
+      pkgs.tinymist
     ];
   };
 }
