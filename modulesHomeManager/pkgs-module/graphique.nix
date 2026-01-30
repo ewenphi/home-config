@@ -27,7 +27,6 @@ in
 
       pkgs.jellyfin-web
       pkgs.libreoffice-fresh
-      pkgs.mpv
       pkgs.nemo-with-extensions
       pkgs.thunderbird
       pkgs.distrobox
