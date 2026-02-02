@@ -106,6 +106,9 @@
           "typescript.inlayHints.parameterTypes.enabled" = true;
           "typescript.inlayHints.propertyDeclarationTypes.enabled" = true;
           "typescript.inlayHints.variableTypes.enabled" = true;
+          "[javascript]" = {
+            "editor.defaultFormatter" = "biomejs.biome";
+          };
 
           "go.inlayHints.assignVariableTypes" = true;
           "go.inlayHints.compositeLiteralFields" = true;
