@@ -57,6 +57,7 @@ in
       (config.lib.nixGL.wrap pkgs.godot_4-mono)
       (config.lib.nixGL.wrap pkgs.prismlauncher)
       (config.lib.nixGL.wrap pkgs.heroic)
+      (config.lib.nixGL.wrap pkgs.steam)
     ];
   };
 }
