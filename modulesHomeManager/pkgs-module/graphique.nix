@@ -39,7 +39,7 @@ in
       pkgs.rofi-pass-wayland
       pkgs.nix-search
 
-      pkgs.mate.atril
+      pkgs.atril
       myTexLive
       pkgs.pdfpc
 
