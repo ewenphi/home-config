@@ -115,8 +115,8 @@
                     git = true;
                   }
                   {
-                    name = "portfolio";
-                    location = "/home/ewen/projets/coding/portfolio";
+                    name = "portfolio-astro";
+                    location = "/home/ewen/projets/coding/portfolio-astro";
                     git = true;
                   }
                 ];
