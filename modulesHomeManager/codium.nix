@@ -46,6 +46,9 @@
           #typst
           pkgs.vscode-extensions.myriad-dreamin.tinymist
 
+          #astro
+          pkgs.vscode-extensions.astro-build.astro-vscode
+
           #nix
           pkgs.vscode-extensions.jnoortheen.nix-ide
           inputs.nix-vscode-extensions.extensions.${pkgs.stdenv.hostPlatform.system}.open-vsx.pinage404.nix-extension-pack
