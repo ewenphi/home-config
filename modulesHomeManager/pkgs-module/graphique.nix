@@ -46,6 +46,8 @@ in
       pkgs.podman
       pkgs.nixpacks
 
+      pkgs.dbeaver-bin
+
       (config.lib.nixGL.wrap pkgs.nemo-with-extensions)
       (config.lib.nixGL.wrap pkgs.quickemu)
       (config.lib.nixGL.wrap pkgs.jetbrains-toolbox)
