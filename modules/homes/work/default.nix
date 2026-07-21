@@ -38,7 +38,7 @@ in
 
   };
 
-  flake.homeModules.work = { ... }: {
+  flake.homeModules.workModule = { ... }: {
 
     imports = [
       self.homeModules.home-common-work

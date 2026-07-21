@@ -2,6 +2,7 @@ _: {
   flake.homeModules.git =
     {
       pkgs,
+      lib,
       ...
     }:
     {
@@ -18,8 +19,8 @@ _: {
             "*.swp"
           ];
           settings.user = {
-            email = "ewen.philippot@etu.umontpellier.fr";
-            name = "Ewen Philippot";
+            email = lib.mkDefault "ewen.philippot@etu.umontpellier.fr";
+            name = lib.mkDefault "Ewen Philippot";
           };
           signing.format = "openpgp";
         };

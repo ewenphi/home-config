@@ -5,6 +5,7 @@
     {
       imports = [
         self.homeModules.pkgs-base-dev
+        self.homeModules.nvf
         self.homeModules.cli-apps
         self.homeModules.tools
         self.homeModules.zellij
