@@ -15,6 +15,7 @@ _: {
         pkgs.process-compose
         pkgs.wl-clipboard
         pkgs.git-subrepo
+        pkgs.tree
       ];
     };
 }
