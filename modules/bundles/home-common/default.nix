@@ -39,11 +39,11 @@
                       location = "/home/ewen/projets/coding/wordle_yvaniak";
                       git = true;
                     }
-                    {
-                      name = "hugo-test";
-                      location = "/home/ewen/projets/coding/hugo-test";
-                      git = true;
-                    }
+                    #{
+                    #  name = "hugo-test";
+                    #  location = "/home/ewen/projets/coding/hugo-test";
+                    #  git = true;
+                    #}
                     {
                       name = "docusaurus-test";
                       location = "/home/ewen/projets/coding/docusaurus-test";
